@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.2" class="java.beans.XMLDecoder">
+  <object class="Organization.Department">
+    <void property="department_id">
+      <int>1</int>
+    </void>
+    <void property="department_name">
+      <string>CSE</string>
+    </void>
+    <void property="staff_list">
+      <object class="java.util.ArrayList"/>
+    </void>
+    <void property="teacher_list">
+      <object class="java.util.ArrayList">
+        <void method="add">
+          <object class="Person.Teacher.Teacher">
+            <void property="email">
+              <string>rohit@gmail.com</string>
+            </void>
+            <void property="qualification">
+              <string>Bachelor</string>
+            </void>
+            <void property="teacher_id">
+              <int>2</int>
+            </void>
+          </object>
+        </void>
+        <void method="add">
+          <object class="Person.Teacher.Teacher">
+            <void property="email">
+              <string>dinesh@gmail.com</string>
+            </void>
+            <void property="qualification">
+              <string>PHD</string>
+            </void>
+            <void property="teacher_id">
+              <int>3</int>
+            </void>
+          </object>
+        </void>
+        <void method="add">
+          <object class="Person.Teacher.Teacher">
+            <void property="email">
+              <string>roshan@gmail.com</string>
+            </void>
+            <void property="qualification">
+              <string>Master</string>
+            </void>
+            <void property="teacher_id">
+              <int>4</int>
+            </void>
+          </object>
+        </void>
+      </object>
+    </void>
+  </object>
+</java>
